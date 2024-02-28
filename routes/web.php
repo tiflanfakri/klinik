@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('testing', function () {
     return view('profil');
 });
+
+Route::get('/logins', function () {
+    return view('login');
+});
